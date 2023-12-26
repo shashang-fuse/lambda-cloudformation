@@ -5,6 +5,7 @@ Description: AWS API Gateway with a Lambda Integration
 Parameters:
   ApiGatewayIamRole:
     Type: String
+    Default: arn:aws:iam::549847039622:role/123-test
 
 Resources:
   LambdaExecutionRole:
